@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Taller practivo 2-DAW </title>
+</head>
+<body>
+    <h1>Menú del Restaurante</h1>
+
+    <center><img class="logo" src="img/pollo-campero-logo-EB6F248171-seeklogo.com.png"></center>
+<br><br>
+        <div class="container">
+            <div id="alerts"></div>
+        <div class="productcont">
+                <div class="product">
+                    <h3 class="productname">Super Combo</h3>
+                    <p>3 piezas de pollo</p>
+                    <p>Ensalada y patatas fritas</p>
+                    <p>Bebida grande</p>
+                    <p class="price">$7.25</p>
+                    <button class="addtocart">Agregar</button>
+                </div>
+                <div class="product">
+                    <h3 class="productname">Combo Personal</h3>
+                    <p>2 piezas de pollo</p>
+                    <p>Patatas fritas</p>
+                    <p>Bebida mediana</p>
+                    <p class="price">$5.75</p>
+                    <button class="addtocart">Agregar</button>
+                </div>
+                <div class="product">
+                    <h3 class="productname">Combo infantil</h3>
+                    <p>1 pieza de pollo</p>
+                    <p>Patatas fritas</p>
+                    <p>Bebida pequeña</p>
+                    <p class="price">$3.50</p>
+                    <button class="addtocart">Agregar</button>
+                </div>
+              
+                </div>
+                <div class="cart-container">
+                  <h2>Total</h2>
+                  <table>
+                    <thead>
+                      <tr>
+                      <th><strong>Producto</strong></th>
+                      <th><strong>Precio</strong></th>
+                    </tr>
+                    </thead>
+                    <tbody id="carttable">
+                    </tbody>
+                  </table>
+                  <hr>
+                  <table id="carttotals">
+                    <tr>
+                      <td><strong>Cantidad</strong></td>
+                      <td><strong>Total</strong></td>
+                    </tr>
+                    <tr>
+                      <td>x <span id="itemsquantity">0</span></td>
+                     
+                      <td>$<span id="total">0</span></td>
+                    </tr></table>
+        
+                    <button class="menu-2">Menú Variado</button><a href="Menu-2.html" target="_blank"></a>
+                  <div class="cart-buttons">
+                    <button id="emptycart">Vaciar</button>
+                    <button id="checkout">Comprar</button>
+                  </div>
+                </div>
+        </div>
+        </div>
+
+          <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/popper.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+            
+            </body>
+    </div>
+   
+</body>
+</html>

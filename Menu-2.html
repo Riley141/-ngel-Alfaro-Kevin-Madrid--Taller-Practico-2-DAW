@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Taller practivo 2-DAW </title>
+</head>
+<body>
+    <h1>Menú del Restaurante</h1>
+
+    <center><img class="logo" src="img/pollo-campero-logo-EB6F248171-seeklogo.com.png"></center>
+<br><br>
+        <div class="container">
+            <div id="alerts"></div>
+        <div class="productcont">
+                
+                <div class="product">
+                    <h3 class="productname">Ensalada</h3>
+                   
+                    <p class="price">$1.50</p>
+                    <button class="addtocart">Agregar</button>
+                </div>
+                <div class="product">
+                  <h3 class="productname">Papa frita</h3>
+                 
+                  <p class="price">$1.25</p>
+                  <button class="addtocart">Agregar</button>
+              </div>
+              <div class="product">
+                <h3 class="productname">Pieza de pollo grande</h3>
+               
+                <p class="price">$1.75</p>
+                <button class="addtocart">Agregar</button>
+            </div>
+            <div class="product">
+              <h3 class="productname">Pieza de pollo pequeña</h3>
+             
+              <p class="price">$1.25</p>
+              <button class="addtocart">Agregar</button>
+          </div>
+          <div class="product">
+            <h3 class="productname">Bebida grande </h3>
+           
+            <p class="price">$1.50</p>
+            <button class="addtocart">Agregar</button>
+        </div>
+        <div class="product">
+          <h3 class="productname">Bebida mediana</h3>
+         
+          <p class="price">$1.25</p>
+          <button class="addtocart">Agregar</button>
+      </div>
+      <br>
+      <div class="product">
+        <h3 class="productname">Bebida pequeña</h3>
+       
+        <p class="price">$1.00</p>
+        <button class="addtocart">Agregar</button>
+    </div>
+  
+  <div class="product">
+    <h3 class="productname">Café</h3>
+   
+    <p class="price">$0.50</p>
+    <button class="addtocart">Agregar</button>
+</div>
+<div class="product">
+  <h3 class="productname">Postre </h3>
+ 
+  <p class="price">$1.25</p>
+  <button class="addtocart">Agregar</button>
+</div>
+              
+                </div>
+                <div class="cart-container">
+                  <h2>Total</h2>
+                  <table>
+                    <thead>
+                      <tr>
+                      <th><strong>Producto</strong></th>
+                      <th><strong>Precio</strong></th>
+                    </tr>
+                    </thead>
+                    <tbody id="carttable">
+                    </tbody>
+                  </table>
+                  <hr>
+                  <table id="carttotals">
+                    <tr>
+                      <td><strong>Cantidad</strong></td>
+                      <td><strong>Total</strong></td>
+                    </tr>
+                    <tr>
+                      <td>x <span id="itemsquantity">0</span></td>
+                     
+                      <td>$<span id="total">0</span></td>
+                    </tr></table>
+        
+                    
+                  <div class="cart-buttons">  
+                    <button id="emptycart">Vaciar</button>
+                    <button id="checkout">Comprar</button>
+                  </div>
+                </div>
+        </div>
+        </div>
+
+   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/popper.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+            
+            </body>
+    </div>
+   
+</body>
+</html>
